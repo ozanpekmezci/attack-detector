@@ -9,7 +9,7 @@
 /**
  * Dependencies
  */
-var data = require('../build/Data.json');
+var data = require('../build/data.json');
 var tokenize = require('./tokenize');
 
 /**
@@ -41,7 +41,7 @@ module.exports = function (phrase, inject, callback) {
 
     // Iterate over tokens
     var len = tokens.length;
-    while (len--) { 
+    while (len--) {
         var obj = tokens[len];
         var item = data[obj];
         if (!data.hasOwnProperty(obj)) continue;
