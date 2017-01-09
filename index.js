@@ -9,7 +9,7 @@
 /**
  * Dependencies
  */
-var data = require('../build/data.json');
+var data = require('./build/data.json');
 var tokenize = require('./tokenize');
 
 /**
