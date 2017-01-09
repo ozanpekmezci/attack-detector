@@ -1,1 +1,1 @@
-A Project for the IDP
+A Project for the IoT at TUM
