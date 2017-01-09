@@ -1,12 +1,17 @@
 {
-  "name": "@oziwan/attack-detector",
-  "version": "1.0.0",
-  "description": "",
+  "name": "attack-detector",
+  "version": "1.0.1",
+  "description": "A project for IoT at TUM",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/ozanpekmezci/attack-detector",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozanpekmezci/attack-detector.git"
   },
-  "author": "",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Ozan Pekmezci",
   "license": "ISC",
   "dependencies": {
     "Sentimental": "^1.0.1"
